@@ -1,0 +1,21 @@
+{
+    "name": "@rshaker/smoketest-npm",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/bundle.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "webpack",
+        "start": "node dist/bundle.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "ts-loader": "^9.5.1",
+        "typescript": "^5.4.2",
+        "webpack": "^5.90.3",
+        "webpack-cli": "^5.1.4"
+    }
+}

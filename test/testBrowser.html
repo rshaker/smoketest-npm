@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browser Test</title>
+    <script src="https://unpkg.com/@rshaker/smoketest-npm"></script>
+    <script>
+        // Assuming your library exposes a `greet` function
+        function testGreet() {
+            const result = MyLibrary.greet('Browser');
+            if (result === 'Hello, Browser!') {
+                alert('Browser test passed successfully.');
+            } else {
+                alert('Browser test failed.');
+            }
+        }
+    </script>
+</head>
+<body onload="testGreet();">
+</body>
+</html>
