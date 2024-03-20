@@ -1,0 +1,15 @@
+# ide and editor
+.vscode/*
+
+# dependencies
+/node_modules
+
+# production
+/build
+/dist
+
+# garbage
+/tmp
+
+# misc
+.DS_Store

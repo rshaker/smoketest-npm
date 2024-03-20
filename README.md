@@ -6,25 +6,31 @@ A minimal template project demonstrating how to bundle Typescript code for distr
 
 ## Usage
 
-```
-git clone https://github.com/rshaker/smoketest-npm
-```
-
-```
-cd smoketest-npm
-npm install
+```sh
+% git clone https://github.com/rshaker/smoketest-npm
+% cd smoketest-npm
 ```
 
+```sh
+% nvm use
+
+Found '/Users/rshaker/smoketest-npm/.nvmrc' with version <v18.12.1>
+Now using node v18.12.1 (npm v9.2.0)
 ```
-node test/testNode.js
+
+```sh
+% npm install
+% npm build
 ```
+
+```sh
+% node test/testNode.js
+
 Node.js test passed successfully.
-
-```
-npm publish
 ```
 
-```
-open test/testBrowser.html
-```
+```sh
+% open test/testBrowser.html
+
 Browser test passed successfully.
+```
