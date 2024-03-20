@@ -6,7 +6,7 @@
 
 # production
 /build
-/dist
+#/dist
 
 # garbage
 /tmp
