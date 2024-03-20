@@ -1,6 +1,6 @@
 {
     "name": "@rshaker/smoketest-npm",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "A minimal project demonstrating how to bundle Typescript code for distribution as a node package.",
     "license": "MIT",
     "author": {
@@ -14,6 +14,9 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/rshaker/smoketest-npm.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/rshaker"
     },
     "keywords": [
         "smoketest",
