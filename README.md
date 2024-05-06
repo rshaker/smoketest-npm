@@ -1,6 +1,6 @@
 # smoketest-npm
 
-<img width="250px" src="assets/campfire.png">
+<img width="250px" src="https://raw.githubusercontent.com/rshaker/smoketest-npm/main/assets/campfire.png">
 
 A minimal template project demonstrating how to bundle Typescript code for distribution as a nodejs package, and as a umd-compatible download through [unpkg.com](https://unpkg.com/@rshaker/smoketest-npm).
 

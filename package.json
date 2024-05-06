@@ -1,6 +1,6 @@
 {
     "name": "@rshaker/smoketest-npm",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "description": "A minimal project demonstrating how to bundle Typescript code for distribution as a node package.",
     "license": "MIT",
     "author": {
